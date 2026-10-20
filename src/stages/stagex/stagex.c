@@ -87,7 +87,7 @@ struct stagex_spells_s stagex_spells = {
 
 static void stagex_begin(void) {
 	stagex_drawsys_init();
-	stagex_bg_init_fullstage();
+	// stagex_bg_init_fullstage();
 	stage_start_bgm("stagex");
 
 	INVOKE_TASK(stagex_timeline);
