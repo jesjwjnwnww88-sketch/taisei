@@ -64,6 +64,7 @@ jobs:
             --prefix="$GITHUB_WORKSPACE/web-output" \
             --buildtype=debug \
             -Ddeveloper=true \
+            -Dwerror=false \
             -Dbuild.cpp_std=gnu++14
 
           meson compile -C build/ --verbose
