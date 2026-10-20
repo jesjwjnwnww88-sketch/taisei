@@ -20,8 +20,8 @@ jobs:
       - name: Checkout Extra Stage branch
         uses: actions/checkout@v7
         with:
-          repository: taisei-project/taisei
-          ref: yumemi
+          repository: jesjwjnwnww88-sketch/taisei
+          ref: patch-1
           submodules: recursive
           fetch-depth: 0
           path: taisei
